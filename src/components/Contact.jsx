@@ -40,7 +40,7 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Mohit Singh Rajput",
+          to_name: "Danica Varga",
           from_email: form.email,
           to_email: "mohit.s.rajput032997@gmail.com",
           location: form.location,
@@ -91,7 +91,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="Mohit Singh Rajput"
+              placeholder="Danica Varga"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
               disabled
             />
@@ -105,7 +105,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="mohit.s.rajput032997@gmail.com"
+              placeholder="danicavarga0527@gmail.com"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
               disabled
             />
@@ -127,10 +127,10 @@ const Contact = () => {
 
           <label className="flex flex-col">
             <p className="text-center" style={{ color: "#7C7E80" }}>
-              Copyright &copy; 2024 M.R. Portfolio <br />
+              Copyright &copy; 2023 D.V. Portfolio <br />
               Designed and Developed by
               <a href="http://linkedin.com/in/mohitsinghrajput" onClick={openLinkedInProfile}>
-                <strong> Mohit Singh Rajput.</strong>
+                <strong> Danica Varga</strong>
               </a>
             </p>
           </label>

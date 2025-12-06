@@ -1,12 +1,10 @@
-import logo from "./logo0.png";
-import backend from "./backend.png";
-import mobile from "./mobile.png";
 import web from "./web.png";
 import fullstack from "./creator.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import frontend from "./mobile.png"
+import backend from "./backend.png"
 import css from "./tech/css.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -30,15 +28,13 @@ import linkedin from "./company/linkedin.png";
 import hackerrank from "./company/hackerrank.png";
 import karate from "./karate.jpg";
 
-import portfolio from "./3dportfolio.png";
 import pglife from "./pglife.png";
 import sortingvisualiser from "./sortingvisualiser.png";
 
 export {
-  logo,
-  backend,
-  mobile,
   web,
+  backend,
+  frontend,
   fullstack,
   github,
   menu,
@@ -62,7 +58,6 @@ export {
   linkedin,
   hackerrank,
   karate,
-  portfolio,
   pglife,
   sortingvisualiser,
 };

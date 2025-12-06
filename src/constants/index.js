@@ -1,7 +1,7 @@
 import {
-  mobile,
-  backend,
   web,
+  backend,
+  frontend,
   fullstack,
   javascript,
   java,
@@ -21,7 +21,6 @@ import {
   linkedin,
   hackerrank,
   karate,
-  portfolio,
   pglife,
   sortingvisualiser,
   aws,
@@ -65,11 +64,11 @@ const services = [
   },
   {
     title: "Frontend Developer",
-    icon: mobile,
+    icon: frontend
   },
   {
     title: "Backend Developer",
-    icon: backend,
+    icon: backend
   },
   {
     title: "Software Developer",
@@ -279,7 +278,6 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: portfolio,
     source_code_link: "https://github.com/mohitrajput2002/my-portfolio",
     live_project_link: "https://mohit-singh-rajput.vercel.app/",
   },

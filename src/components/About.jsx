@@ -26,7 +26,7 @@ const ServiceCard = ({ index, title, icon }) => (
           alt="web-development"
           className="w-16 h-16 object-contain"
         />
-
+      {console.log(icon)}
         <h3 className="text-white text-[20px] font-bold text-center">
           {title}
         </h3>
@@ -47,11 +47,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a aspiring software developer with experience in HTML, CSS, and
-        JavaScript, and expertise in frameworks like React, and Bootstrap. I'm a
-        quick learner and to create efficient, scalable, and user-friendly
-        solutions that solve real-world problems. Let's work together to bring
-        our ideas to life!
+       Innovative and detail-oriented program developer with over 5 years of experience designing, 
+       coding, and maintaining high-performance software solutions. Skilled in full-stack development, 
+       project management, and cross-functional collaboration. Passionate about creating clean, efficient, 
+       and user-friendly code to solve complex real-world problems.
       </motion.p>
 
       <button className="mt-10 px-6 py-3 text-white bg-gradient-to-r from-blue-500 to-purple-500 rounded-md shadow-md hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-50" 
