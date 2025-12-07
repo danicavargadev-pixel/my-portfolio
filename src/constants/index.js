@@ -79,7 +79,7 @@ const education = [
     company_name: "Oriental Institute Of Science And Technology, Bhopal",
     icon: oist,
     iconBg: "#fff",
-    date: "2018-2020",
+    date: "2017-2019",
     points: [
       "Courses undertaken: Data Structures and Algorithms, Operating Systems, Database Management Systems, Distributed Computing, Object Oriented Programming, Computer Architecture, Computer Network, Compiler Design, Computer Graphics & Multimedia, Soft Computing, Cloud Computing, Information Security, Blockchain Technology, Analysis and Design of Algorithm, Artificial Intelligence, Software Engineering, Machine Learning, Data Science, Internet of Things.",
     ],
@@ -89,7 +89,7 @@ const education = [
     company_name: "C.S Lewis Billingual  High School",
     icon: samaritans,
     iconBg: "#fff",
-    date: "2018-2013",
+    date: "2017-2012",
     points: [
       "Courses undertaken: Physics, Chemistry and Mathematics.",
     ],
@@ -160,7 +160,7 @@ const experiences = [
     company_name: "Slovakia/EU",
     icon: cognizant,
     iconBg: "#fff",
-    date: "Mar 2023 - Aug 2024",
+    date: "Mar 2022 - Aug 2024",
     points: [
       "Migrated enterprise systems to modern frameworks, cutting maintenance costs by 35% and ensuring scalability.",
       "Implemented AI chatbots and CRM customizations, increasing sales tracking by 40%.",
@@ -171,57 +171,11 @@ const experiences = [
     company_name: "ehter.fi of George Town in Grand Cayman Island",
     icon: internshala,
     iconBg: "#1294C8",
-    date: "Apr 2020 - Mar 2023",
+    date: "Apr 2019 - Mar 2022",
     points: [
       "Built and integrated front-end interfaces using modern JavaScript frameworks (React.js, Next.js) with back-end services powered by Node.js and RESTful APIs",
       "Optimized application performance and reliability by incorporating best practices in state management, database queries, and server response times",
       "Contributed to the design and implementation of new features such as crypto-backed credit card services and liquid token management using HTML and Tailwind CSS.",
-    ],
-  },
-];
-
-const extracurricular = [
-  {
-    title: "1.5K+ Connections on LinkedIn",
-    type: "Achievements",
-    icon: linkedin,
-    iconBg: "#007BB5",
-    date: "April 2023",
-    points: ["Credential ID: mohitsinghrajput"],
-    credential: "https://www.linkedin.com/in/mohitsinghrajput/",
-  },
-  {
-    title: "Java (Basic), CSS, SQL (Basic)-HackerRank",
-    type: "Certification",
-    icon: hackerrank,
-    iconBg: "#050C18",
-    date: "2022-2023",
-    points: [
-      "Credential ID: aac000e38dc9",
-      "Credential ID: a274bb1292eb",
-      "Credential ID: b024370fa737",
-    ],
-    credential: "https://www.hackerrank.com/certificates/aac000e38dc9",
-  },
-  {
-    title: "Web Development-Internshala",
-    type: "Certification",
-    icon: internshala,
-    iconBg: "#1294C8",
-    date: "Sept 2021",
-    points: ["Credential ID: 281DB109-2DA8-A160-DCBC-C6C0F552B57C"],
-    credential:
-      "https://trainings.internshala.com/verify-certificate/?certificate_number=281DB109-2DA8-A160-DCBC-C6C0F552B57C",
-  },
-  {
-    title: "Combat Sport-Karate",
-    type: "Extracurricular(Hobby)/Combat Sport",
-    icon: karate,
-    iconBg: "#CCCFD8",
-    date: "2006-2020",
-    points: [
-      "State level Gold medalist in Kumite.",
-      "Renshi Cup National Championship Bronze medalist in Kumite.",
     ],
   },
 ];
@@ -250,8 +204,8 @@ const projects = [
       },
     ],
     image: thport,
-    source_code_link: "https://github.com/mohitrajput2002/my-portfolio",
-    live_project_link: "https://mohit-singh-rajput.vercel.app/",
+    source_code_link: "https://github.com/danicavargadev-pixel/my-portfolio.git",
+    live_project_link: "https://danica-varga.app/",
   },
   {
     name: "Tigren",
@@ -276,8 +230,7 @@ const projects = [
       },
     ],
     image: pglife,
-    source_code_link: "https://github.com/mohitrajput2002/PG_Life",
-    live_project_link: "https://github.com/mohitrajput2002/PG_Life",
+    live_project_link: "https://www.tigren.com/",
   },
   {
     name: "ether.fi",
@@ -302,9 +255,7 @@ const projects = [
       },
     ],
     image: sortingvisualiser,
-    source_code_link:
-      "https://github.com/mohitrajput2002/sorting-visualizer-project.github.io.git",
-    live_project_link: "https://sorting-visuallizer.netlify.app/",
+    live_project_link: "https://ether.fi/",
   },
 ];
 
@@ -312,7 +263,6 @@ export {
   services,
   technologies,
   experiences,
-  extracurricular,
   projects,
   education,
 };
