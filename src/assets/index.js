@@ -29,8 +29,8 @@ import linkedin from "./company/linkedin.png";
 import hackerrank from "./company/hackerrank.png";
 import karate from "./karate.jpg";
 
-import pglife from "./pglife.png";
-import sortingvisualiser from "./sortingvisualiser.png";
+import pglife from "./company.PNG";
+import sortingvisualiser from "./ether.PNG";
 
 export {
   web,

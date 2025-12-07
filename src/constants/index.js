@@ -254,9 +254,9 @@ const projects = [
     live_project_link: "https://mohit-singh-rajput.vercel.app/",
   },
   {
-    name: "PG Life",
+    name: "Tigren",
     description:
-      "The PG-Life Web Application is a platform designed to facilitate the management and search for Paying Guest (PG) accommodations. It allows users to explore available PG options, view details, and connect with potential landlords or tenants.",
+      "The Tigren Web Application is a platform designed to facilitate the management and search for Paying Guest (PG) accommodations. It allows users to view details, and connect with potential landlords or tenants.",
     tags: [
       {
         name: "html",
@@ -280,9 +280,9 @@ const projects = [
     live_project_link: "https://github.com/mohitrajput2002/PG_Life",
   },
   {
-    name: "Sorting Visualizer",
+    name: "ether.fi",
     description:
-      "The Sorting Visualizer is a web application that provides a visual representation of various sorting algorithms. It allows users to observe and understand how different sorting algorithms work by animating the sorting process.",
+      "The Ether.Fi protocol is a decentralized finance platform that operates on the blockchain network and extends credit to you based on criteria.",
     tags: [
       {
         name: "html",
