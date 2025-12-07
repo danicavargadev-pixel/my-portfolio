@@ -205,7 +205,7 @@ const projects = [
     ],
     image: thport,
     source_code_link: "https://github.com/danicavargadev-pixel/my-portfolio.git",
-    live_project_link: "https://danica-varga.app/",
+    live_project_link: "https://danica-varga.netlify.app/",
   },
   {
     name: "Tigren",
