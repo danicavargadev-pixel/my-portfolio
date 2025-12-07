@@ -2,6 +2,7 @@ import {
   web,
   backend,
   frontend,
+  thport,
   fullstack,
   javascript,
   java,
@@ -33,15 +34,11 @@ export const navLinks = [
   },
   {
     id: "education",
-    title: "Qualifications",
+    title: "Education",
   },
   {
     id: "work",
     title: "Work",
-  },
-  {
-    id: "extracurricular",
-    title: "Extracurricular",
   },
   {
     id: "skills",
@@ -82,31 +79,19 @@ const education = [
     company_name: "Oriental Institute Of Science And Technology, Bhopal",
     icon: oist,
     iconBg: "#fff",
-    date: "2019-2023",
+    date: "2018-2020",
     points: [
       "Courses undertaken: Data Structures and Algorithms, Operating Systems, Database Management Systems, Distributed Computing, Object Oriented Programming, Computer Architecture, Computer Network, Compiler Design, Computer Graphics & Multimedia, Soft Computing, Cloud Computing, Information Security, Blockchain Technology, Analysis and Design of Algorithm, Artificial Intelligence, Software Engineering, Machine Learning, Data Science, Internet of Things.",
-      "CGPA: 8.88/10",
     ],
   },
   {
     title: "Higher Secondary",
-    company_name: "Samaritan Senior Secondary School-CBSE",
+    company_name: "C.S Lewis Billingual  High School",
     icon: samaritans,
     iconBg: "#fff",
-    date: "2018-2019",
+    date: "2018-2013",
     points: [
       "Courses undertaken: Physics, Chemistry and Mathematics.",
-    ],
-  },
-  {
-    title: "Senior Secondary",
-    company_name: "Samaritan Senior Secondary School-CBSE",
-    icon: samaritans,
-    iconBg: "#fff",
-    date: "2016-2017",
-    points: [
-      "Courses undertaken: Science, Social Studies, Languages and Mathematics.",
-      "CGPA: 10/10",
     ],
   },
 ];
@@ -160,51 +145,37 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Programmer Analyst Trainee",
-    company_name: "Cognizant Technology Solutions",
+    title: "Senior Software Engineer",
+    company_name: "Tigren Of Vietnam",
     icon: cognizant,
     iconBg: "#fff",
-    date: "May 2024 - present",
+    date: "Aug 2024 - Nov 2025",
     points: [
       "Achieved ServiceNow Certified Risk and Compliance certification.",
       "Specialized in GRC/IRM (Governance, Risk, and Compliance/Integrated Risk Management) within ServiceNow, gaining hands-on experience in this product line."
     ],
   },
   {
-    title: "Intern",
-    company_name: "Cognizant Technology Solutions",
+    title: "Software Engineer",
+    company_name: "Slovakia/EU",
     icon: cognizant,
     iconBg: "#fff",
-    date: "Dec 2023 - Apr 2024",
+    date: "Mar 2023 - Aug 2024",
     points: [
-      "Internship at Cognizant focused on ServiceNow domain.",
-      "Achieved ServiceNow Certified System Administrator and ServiceNow Certified Application Developer certifications.",
-      "Specialized in GRC/IRM (Governance, Risk, and Compliance/Integrated Risk Management) within ServiceNow, gaining hands-on experience in this product line."
+      "Migrated enterprise systems to modern frameworks, cutting maintenance costs by 35% and ensuring scalability.",
+      "Implemented AI chatbots and CRM customizations, increasing sales tracking by 40%.",
     ],
   },
   {
-    title: "Web Development Intern",
-    company_name: "Next Innovation Technology",
-    icon: nextinnovation,
-    iconBg: "#fff",
-    date: "Jun 2023 - Aug 2023",
-    points: [
-      "Developed a web application using HTML, CSS, Javascript, PHP, and Bootstrap for the client.",
-      "Designed user-friendly UI/UX with responsive designs to make it easy for users to navigate through the website. ",
-      "Designed various different websites with responsive designs and dynamic content. ",
-    ],
-  },
-  {
-    title: "Campus Ambassador Intern: WFH",
-    company_name: "Internshala",
+    title: "Full Stack Developer",
+    company_name: "ehter.fi of George Town in Grand Cayman Island",
     icon: internshala,
     iconBg: "#1294C8",
-    date: "Apr 2021 - Jun 2021",
+    date: "Apr 2020 - Mar 2023",
     points: [
-      "Raised awareness about Internshala across the entire campus.",
-      "Encouraged students to explore Internshala training programs and internships.",
-      "Motivated students to enhance their skills by utilizing the opportunities provided by Internshala.",
-      "I stood 279 out of 21,963 students selected from different colleges across India",
+      "Built and integrated front-end interfaces using modern JavaScript frameworks (React.js, Next.js) with back-end services powered by Node.js and RESTful APIs",
+      "Optimized application performance and reliability by incorporating best practices in state management, database queries, and server response times",
+      "Contributed to the design and implementation of new features such as crypto-backed credit card services and liquid token management using HTML and Tailwind CSS.",
     ],
   },
 ];
@@ -278,6 +249,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
+    image: thport,
     source_code_link: "https://github.com/mohitrajput2002/my-portfolio",
     live_project_link: "https://mohit-singh-rajput.vercel.app/",
   },

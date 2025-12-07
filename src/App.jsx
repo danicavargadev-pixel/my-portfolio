@@ -14,7 +14,6 @@ function App() {
           <About />
           <Education />
           <Experience />
-          <Extracurricular />
           <Tech />
           <Works />
           <div className="div relative z-0">

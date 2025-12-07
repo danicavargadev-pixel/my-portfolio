@@ -26,7 +26,6 @@ const ServiceCard = ({ index, title, icon }) => (
           alt="web-development"
           className="w-16 h-16 object-contain"
         />
-      {console.log(icon)}
         <h3 className="text-white text-[20px] font-bold text-center">
           {title}
         </h3>

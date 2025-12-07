@@ -1,5 +1,6 @@
 import web from "./web.png";
 import fullstack from "./creator.png";
+import thport from "./thport.PNG"
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -35,6 +36,7 @@ export {
   web,
   backend,
   frontend,
+  thport,
   fullstack,
   github,
   menu,
